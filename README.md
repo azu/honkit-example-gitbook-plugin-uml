@@ -1,6 +1,6 @@
 # [HonKit](https://github.com/HonKit/HonKit) + [gitbook-plugin-uml](https://github.com/vowstar/gitbook-plugin-uml)
 
-Code Block
+Code Block pattern
 
 ```uml
 @startuml
@@ -17,7 +17,7 @@ Code Block
 @enduml
 ```
 
-`{% uml %}`
+`{% uml %}` pattern
 
 {% uml %}
 @startuml
@@ -34,7 +34,7 @@ Code Block
 @enduml
 {% enduml %}
 
-File
+`src` File pattern
 
 {% uml src="test.plantuml" %}{% enduml %}
 
