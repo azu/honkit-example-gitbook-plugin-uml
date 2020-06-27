@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "honkit:build": "honkit build",
     "honkit:serve": "honkit serve",
+    "gitbook:build": "gitbook build",
     "gitbook:serve": "gitbook serve"
   },
   "keywords": [],
