@@ -42,26 +42,36 @@ Code Block pattern
 
 {% uml src="test.plantuml" %}{% enduml %}
 
-Issue
 
-    ```uml
-    @startuml
-    
-        /'
-          Comment
-        '/
-    
-        Class Stage
-        Class Timeout {
-            +constructor:function(cfg)
-            +timeout:function(ctx)
-            +overdue:function(ctx)
-            +stage: Stage
-        }
-        Stage <|-- Timeout
-    
-    @enduml
-    ```
+```uml
+@startuml
+
+/'
+  Comment
+'/
+
+    Class Stage
+    Class Timeout {
+        +constructor:function(cfg)
+        +timeout:function(ctx)
+        +overdue:function(ctx)
+        +stage: Stage
+    }
+    Stage <|-- Timeout
+
+@enduml
+```
+
+~~~md
+ ```mermaid
+ graph TD;
+   A-->B;
+   A-->C;
+   B-->D;
+   C-->D;
+ ```
+~~~
+
 
 ## Usage
 
